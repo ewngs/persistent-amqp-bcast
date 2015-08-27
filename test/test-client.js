@@ -8,11 +8,11 @@ broadcast.on('msg.#', function (message) {
 
 process.on('SIGHUP', () => {
     console.log('HUP received. Shutdown...');
-    broadcast.shutdown()
-        .then(() => {
-            console.log('Closed');
-        })
-        .catch(function (err) {
-            console.log(err);
-        });
+    broadcast.shutdown();
+        // .then(() => {
+        //     console.log('Closed');
+        // })
+        // .catch(function (err) {
+        //     console.log(err);
+        // });
 });

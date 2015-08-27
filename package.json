@@ -2,8 +2,9 @@
   "name": "persistent-amqp-bcast",
   "version": "0.0.1",
   "description": "AMQP Subscribe/Publish Module with Persistence",
-  "main": "index.js",
+  "main": "lib/broadcast.js",
   "scripts": {
+    "client": "iojs --harmony_proxies --harmony_arrow_functions test/test-client.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -29,6 +30,7 @@
   "homepage": "https://github.com/ewngs/persistent-amqp-bcast#readme",
   "dependencies": {
     "co": "^4.6.0",
+    "bson": "^0.4.8",
     "persistent-amqp": "^0.1.3",
     "verror": "^1.6.0"
   },
