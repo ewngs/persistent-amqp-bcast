@@ -1,0 +1,5 @@
+*~
+.DS_Store
+node_modules
+npm-error.log
+npm-debug.log

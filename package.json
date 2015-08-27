@@ -1,0 +1,39 @@
+{
+  "name": "persistent-amqp-bcast",
+  "version": "0.0.1",
+  "description": "AMQP Subscribe/Publish Module with Persistence",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ewngs/persistent-amqp-bcast.git"
+  },
+  "keywords": [
+    "amqp",
+    "rpc",
+    "persistent"
+  ],
+  "author": {
+    "name": "Peter Kovacs",
+    "email": "kiwep@elasticwings.com"
+  },
+  "engines": {
+    "iojs": ">=2.5.0"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ewngs/persistent-amqp-bcast/issues"
+  },
+  "homepage": "https://github.com/ewngs/persistent-amqp-bcast#readme",
+  "dependencies": {
+    "co": "^4.6.0",
+    "persistent-amqp": "^0.1.3",
+    "verror": "^1.6.0"
+  },
+  "devDependencies": {
+    "tap-spec": "^4.0.2",
+    "tape": "^4.0.1"
+  }
+}
