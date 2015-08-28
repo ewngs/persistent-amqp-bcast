@@ -1,6 +1,6 @@
 {
   "name": "persistent-amqp-bcast",
-  "version": "0.0.1",
+  "version": "0.1.1",
   "description": "AMQP Subscribe/Publish Module with Persistence",
   "main": "lib/broadcast.js",
   "scripts": {
@@ -29,7 +29,6 @@
   },
   "homepage": "https://github.com/ewngs/persistent-amqp-bcast#readme",
   "dependencies": {
-    "co": "^4.6.0",
     "bson": "^0.4.8",
     "persistent-amqp": "^0.1.3",
     "verror": "^1.6.0"
