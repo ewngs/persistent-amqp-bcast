@@ -2,11 +2,11 @@
 
 const broadcast = require('..')(null, // default connection is localhost
     {
-        exchangeName: 'messages'
-        // queueName: 'shared.message.queue',
-        // queueOptions: {
-        //     exclusive: false
-        // }
+        exchangeName: 'messages',
+        queueName: 'shared.message.queue',
+        queueOptions: {
+            exclusive: false
+        }
     });
 
 broadcast.on('#', function (topic, message) {
