@@ -1,11 +1,11 @@
 {
   "name": "persistent-amqp-bcast",
-  "version": "0.1.7",
+  "version": "0.1.8",
   "description": "AMQP Subscribe/Publish Module with Persistence",
   "main": "lib/broadcast.js",
   "scripts": {
-    "client": "iojs --harmony_proxies --harmony_arrow_functions test/test-client.js",
-    "sender": "iojs --harmony_proxies --harmony_arrow_functions test/test-sender.js",
+    "client": "node --harmony_proxies test/test-client.js",
+    "sender": "node --harmony_proxies test/test-sender.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -22,7 +22,7 @@
     "email": "kiwep@elasticwings.com"
   },
   "engines": {
-    "iojs": ">=2.5.0"
+    "node": ">=4.0.0"
   },
   "license": "MIT",
   "bugs": {
